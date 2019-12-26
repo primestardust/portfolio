@@ -10,4 +10,3 @@ Thanks for joining me in my blogging journey! This is Anish, a thriving statisti
 
 ![Journey Begins]({{site.baseurl}}/assets/journey-begins.jpg)
 <!--<img src="{{site.baseurl}}/assets/journey-begins.jpg" alt="Journey Begins" style="float:center"> -->
-<p>
