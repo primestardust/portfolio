@@ -15,8 +15,8 @@ layout: default
       {%- for post in site.posts -%}
       <li>
         {%- if site.show_excerpts -%}
-          <div style="clear: both; margin-bottom: 2em; overflow: auto;">
-            <div style="float: left; margin-right: 2em;">
+          <div style="clear: both; margin-bottom: 1em; overflow: auto;">
+            <div style="float: left; margin-right: 1.5em;">
               <img src="{{site.baseurl}}/assets/{{post.pic}}" alt="" width="200" height="160">
             </div>
             <div>
@@ -24,9 +24,9 @@ layout: default
                 {{ post.title | escape }}
               </a>
               <p class="post-excerpt">
-              {{ post.excerpt | strip_html | append: "..." }} <a href = "{{site.baseurl}}{{post.url}}">read more</a> <br/>
-              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-              <span class="post-meta">{{ post.date | date: date_format }}</span>
+                {{ post.excerpt | strip_html | append: "..." }} <a href = "{{site.baseurl}}{{post.url}}">read more</a> <br/>
+                {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">{{ post.date | date: date_format }}</span>
               </p>
             </div>
           </div>
