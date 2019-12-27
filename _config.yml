@@ -30,6 +30,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 google_analytics: UA-154603106-1
 
+show_excerpts: true
+excerpt_separator: <!--more-->
+
 # Build settings
 theme: minima
 plugins:

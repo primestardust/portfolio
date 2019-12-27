@@ -4,7 +4,7 @@ title: "A not-so-costly way to High Performance Computing"
 date: 2019-12-26 01:10:25 -0500
 ---
 
-Most of us with scientifically inclined mind get thrilled just by the idea of having a supercomputer or a massive cluster at our disposal, hidden in a dark room somewhere in the basement of our home. Here is a picture just to feed your wild imagination!
+Most of us with scientifically inclined mind get thrilled just by the idea of having a supercomputer or a massive cluster at our disposal, hidden in a dark room somewhere in the basement of our home. Here is a picture just to feed your wild imagination! <!--more-->
 
 <p align="center"><img src="{{site.baseurl}}/assets/post2-hightech.jpg" alt="Journey Begins" style="float:center"></p>
 
