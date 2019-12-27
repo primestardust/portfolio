@@ -204,7 +204,12 @@
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  @include relative-font-size(1.25);
+}
+
+.post-excerpt{
+  display: block;
+  @include relative-font-size(0.85);
 }
 
 
