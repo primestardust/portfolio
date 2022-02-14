@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Artwork
+title: Artworks
+order: 2
 permalink: /artwork/
 ---
 
