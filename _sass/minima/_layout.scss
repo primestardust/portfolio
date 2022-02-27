@@ -37,6 +37,7 @@
   }
 
   .page-link {
+    text-decoration: none;
     color: $text-color;
     line-height: $base-line-height;
 
@@ -44,6 +45,9 @@
     &:not(:last-child) {
       margin-right: 20px;
     }
+  }
+  .page-link:hover {
+    color: brown;
   }
 
   @include media-query($on-palm) {
@@ -205,6 +209,9 @@
 .post-link {
   display: block;
   @include relative-font-size(1.25);
+}
+.post-link:hover {
+  color: brown;
 }
 
 .post-excerpt{
