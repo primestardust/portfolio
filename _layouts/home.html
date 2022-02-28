@@ -17,7 +17,7 @@ layout: default
         {%- if site.show_excerpts -%}
           <div style="clear: both; margin-bottom: 1em; overflow: auto;">
             <div style="float: left; margin-right: 1.5em;">
-              <img src="{{site.baseurl}}/assets/{{post.pic}}" alt="" width="160" height="160">
+              <a href="{{ post.url | relative_url }}"> <img src="{{site.baseurl}}/assets/{{post.pic}}" alt="" width="160" height="160"> </a>
             </div>
             <div>
               <a class="post-link" href="{{ post.url | relative_url }}">
@@ -36,7 +36,7 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    <p class="rss-subscribe">subscribe <a class="post-excerpt-text" href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
   {%- endif -%}
 
 </div>
